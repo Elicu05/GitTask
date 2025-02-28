@@ -1,10 +1,9 @@
 const greeting = "hi Isa"
+let persona = "Eli"
 
-
-const persona = "Eli"
-
-function saludar (nombre) {
-    console.log(`Hola tu nombre es ${nombre}`)
+function saludar(nombre) {
+    console.log('Hola! ' + nombre)
 }
+
 
 saludar(persona)
